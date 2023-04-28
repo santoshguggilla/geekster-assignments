@@ -12,12 +12,12 @@ public class UserRepository {
 
 	private List<User> userList;
 	
-	public UserRepository() {
-		userList = new ArrayList<>();
-		// not needed ...done for testing
-		userList.add(new User(0,"Santosh","santhoshguggilla@gmail.com","Hyderabad","6304443903"));
-
-	}
+//	public UserRepository() {
+//		userList = new ArrayList<>();
+//		// not needed ...done for testing
+//		userList.add(new User(0,"Santosh","santhoshguggilla@gmail.com","Hyderabad","6304443903"));
+//
+//	}
 
 	public List<User> getUsersFromDataSource() {
 		return userList;
